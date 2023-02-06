@@ -17,11 +17,14 @@
 
 .card_bot ,.card_top{
     background-color: var(--secondary_color);
-    width: 100%;
+    width: 90%;
     height: 200px;
+    margin: auto;
 }
 
-
+.card{
+    margin: 20px 0 ;
+}
 /* css */
 
 header{
@@ -44,7 +47,7 @@ main{
 }
 
 .container{
-    max-width: 1170px;
+    max-width: 600px;
     margin: auto;
 }
 
