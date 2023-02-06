@@ -223,7 +223,7 @@ footer{
         margin: 1rem 0.75rem ;
     }
 
-    #get_started .container{
+    #get_started .container, footer .container{
         width: 60%;
     }
 }
