@@ -94,6 +94,11 @@
     background-color: paleturquoise;
     height: 60px;
 }
+
+.us_top{
+    background-color: mediumspringgreen;
+    height: 200px;
+}
 /* css */
 
 header{
@@ -172,6 +177,13 @@ main{
         margin: 1rem 0.75rem ;
     }
 
+    #about_us .container{
+        display: flex;
+    }
+
+    .us_top,.us_bot{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 992px)
@@ -235,5 +247,8 @@ main{
     --primary_color : #0079FD;
     --primary_color_light : #ACD8FF;
     --secondary_color: #8C87E0;
-   
+}
+
+.padding_top{
+    padding-top: 50px;
 }
