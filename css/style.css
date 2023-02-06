@@ -74,11 +74,25 @@
 .small_title{
     background-color: blueviolet;
     height: 40px;
+   
 }
 
 .paragraph{
     background-color: hotpink;
     height: 50px;
+}
+
+.number{
+    background-color: indianred;
+    height: 30px;
+}
+.little_title{
+    background-color: lime;
+    height: 20px;
+}
+.parag{
+    background-color: paleturquoise;
+    height: 60px;
 }
 /* css */
 
@@ -106,7 +120,7 @@ main{
     max-width: 90%;
 }
 
-#planning{
+#planning,#working_with_us{
     background-color: var(--secondary_color);
     padding-top: 50px;
 }
@@ -147,12 +161,16 @@ main{
     }
 
     .card{
-        width: calc(100% / 3 - 1.5rem);
-        
+        width: calc(100% / 3 - 1.5rem);       
         padding: 0;
         margin: 1rem 0.75rem ;
     }
 
+    .card.bot{
+        width: calc(100% / 2 - 1.5rem);
+        padding: 0;
+        margin: 1rem 0.75rem ;
+    }
 
 }
 
@@ -181,6 +199,12 @@ main{
 
     .pic,.testimonial_text{
         width: 100%;
+    }
+
+    .card.bot{
+        width: calc(100% / 3 - 1.5rem);       
+        padding: 0;
+        margin: 1rem 0.75rem ;
     }
 }
 
