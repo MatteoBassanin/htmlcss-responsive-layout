@@ -8,23 +8,16 @@
 
 .debug_box{
     background-color: var(--primary_color_light);
-}
-
-.left,.right{
     height: 80px;
-    width: 200px;
-}
-
-.card_bot ,.card_top{
-    background-color: var(--secondary_color);
-    width: 90%;
-    height: 200px;
-    margin: auto;
+    padding: 1rem;
 }
 
 .card{
-    margin: 20px 0 ;
+    margin: 20px 10px ;
+    width: 100%;  
 }
+
+
 /* css */
 
 header{
@@ -46,6 +39,7 @@ main{
     padding-top: 100px;
 }
 
+
 .container{
     max-width: 600px;
     margin: auto;
@@ -56,18 +50,33 @@ main{
     .container{
         max-width: 740px;
     }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -10px;
+    }
+
+    .card:first-child{
+        width: calc((100% / 3) * 2 - 20px);
+    }
+
+    .card{
+        width: calc(100% / 3 - 20px);
+    }
+
+   
 }
 
 @media screen and (min-width: 992px)
 {
-      .container{
+    .container{
         max-width: 960px;
     }
 }
 
 @media screen and (min-width: 1200px)
 {
-      .container{
+    .container{
         max-width: 1170px;
     }
 }
