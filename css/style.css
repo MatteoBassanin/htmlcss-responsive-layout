@@ -54,6 +54,27 @@
     background-color: green;
     height: 200px;
 }
+
+.introduction{
+    background-color: bisque;
+    height: 200px;
+    
+}
+
+.small_text{
+    background-color: greenyellow;
+    height: 20px;
+}
+
+.small_title{
+    background-color: blueviolet;
+    height: 40px;
+}
+
+.paragraph{
+    background-color: hotpink;
+    height: 50px;
+}
 /* css */
 
 header{
@@ -82,6 +103,26 @@ main{
 #planning{
     background-color: var(--secondary_color);
     padding-top: 50px;
+}
+
+#testimonials{
+    padding-top: 50px;
+}
+
+.testimonial{
+    margin-top: 50px;
+    height: 200px;
+    background-color: blue;
+}
+
+.pic{
+    background-color: darkmagenta;
+    height: 50px;
+}
+
+.name{
+    background-color: peru;
+    height: 20px;
 }
 
 @media screen and (min-width: 768px)
@@ -123,6 +164,14 @@ main{
 
     #planning .container{
         padding: 0 6rem;
+    }
+
+    .testimonial{
+        display: flex;
+    }
+
+    .pic,.testimonial_text{
+        width: 100%;
     }
 }
 
