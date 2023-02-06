@@ -13,7 +13,7 @@
 }
 
 .card{
-    margin: 20px 10px ;
+    margin: 1rem 0.75rem ;
     width: 100%;  
 }
 
@@ -34,11 +34,9 @@ header{
     height: 100%;
 }
 
-
 main{
     padding-top: 100px;
 }
-
 
 .container{
     max-width: 600px;
@@ -49,19 +47,21 @@ main{
 {
     .container{
         max-width: 740px;
+        
     }
     .cards{
         display: flex;
         flex-wrap: wrap;
-        margin: 0 -10px;
+        margin: 0 -0.75rem;
+        
     }
 
     .card:first-child{
-        width: calc((100% / 3) * 2 - 20px);
+        width: calc((100% / 3) * 2 - 1.5rem);
     }
 
     .card{
-        width: calc(100% / 3 - 20px);
+        width: calc(100% / 3 - 1.5rem);
     }
 
    
