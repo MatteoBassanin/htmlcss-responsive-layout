@@ -76,14 +76,16 @@
 }
 
 .introduction{
-    background-color: bisque;
-    height: 200px;
+    /* background-color: bisque;
+    height: 200px; */
+    text-align: center;
     
 }
 
+
 .small_text{
-    background-color: greenyellow;
-    height: 20px;
+    /* background-color: greenyellow;
+    height: 20px; */
 }
 
 .small_title{
@@ -222,8 +224,20 @@ img{
 
 .testimonial{
     margin-top: 50px;
+    /* height: 200px; */
+    background-color: var(--secondary_color);
+    text-align: center;
+}
+
+.testimonial > img{
     height: 200px;
-    background-color: blue;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.testimonial_text{
+    line-height: 1.5rem;
 }
 
 .pic{
@@ -231,10 +245,7 @@ img{
     height: 50px;
 }
 
-.name{
-    background-color: peru;
-    height: 20px;
-}
+
 
 
 footer{
@@ -269,7 +280,23 @@ footer{
     img.phone {
         width: 50%;
     }
-   
+    
+    .testimonial{
+        display: flex;
+    }
+
+    .testimonial > img{
+        margin-left: 1rem;
+    }
+
+    .testimonial_text{
+        text-align: left;
+        padding: 2rem;
+    }
+
+    .name{
+        padding: 1rem 0 ;
+    }
 
     .card.bot{
         /* width: calc(100% / 2 - 1.5rem); */
@@ -418,4 +445,8 @@ footer{
 
 .padding_top{
     padding-top: 50px;
+}
+
+.pdg_small{
+    padding: 1rem 0;
 }
