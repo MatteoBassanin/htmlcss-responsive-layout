@@ -14,7 +14,7 @@
 
 .card{
     padding: 1rem 0.75rem ;
-    width: 100%;   
+    /* width: 100%;    */
 }
 
 .card{
@@ -27,9 +27,6 @@
     width: 100%;
 } */
 
-.container{
-    margin: 0 -0.75rem;
-}
 
 .picture_planning{
    width: 100%;
@@ -89,8 +86,7 @@
 }
 
 .small_title{
-    background-color: blueviolet;
-    height: 40px;
+   text-align: center;
    
 }
 
@@ -99,10 +95,7 @@
     height: 50px;
 }
 
-.number{
-    background-color: indianred;
-    height: 30px;
-}
+
 .little_title{
     background-color: lime;
     height: 20px;
@@ -141,6 +134,7 @@ main{
     margin: auto;
     /* max-width: 90%; */
     padding: 0 2rem;
+    /* margin: 0 -0.75rem; */
 }
 
 .container.top{
@@ -167,8 +161,7 @@ main{
 
 .btn{
     border-radius: 5px;
-    padding: 5px;
-    
+    padding: 5px;  
 }
 
 
@@ -245,7 +238,13 @@ img{
     height: 50px;
 }
 
+.white{
+    background-color: white;
+}
 
+.card.bot{
+    text-align: left;
+}
 
 
 footer{
@@ -300,7 +299,8 @@ footer{
 
     .card.bot{
         /* width: calc(100% / 2 - 1.5rem); */
-        /* margin: 1rem 0.75rem ; */
+         /* margin: 1rem 0.75rem ;  */
+         width: calc(100% / 2 - 1.5rem);
     }
 
     /* .card_bot img{
@@ -389,11 +389,11 @@ footer{
 
 
 
-    /* .card.bot{
+    .card.bot{
         width: calc(100% / 3 - 1.5rem);       
-        padding: 0;
-        margin: 1rem 0.75rem ;
-    } */
+        /* padding: 0;
+        margin: 1rem 0.75rem ; */
+    }
 
     #get_started .container, footer .container{
         width: 60%;
