@@ -171,7 +171,18 @@ a.blue{
     color: white;
 }
 
+.first > .card_top{
+    text-align: center;
+    padding-bottom: 1rem;
+}
 
+.first > i{
+    padding-top: 1rem;
+}
+
+.card_top > p {
+    padding-bottom: 20px;
+} 
 
 img.phone{
      width: 100%;    
@@ -218,15 +229,23 @@ footer{
 
     .card.first{
         width: calc((100% / 3) * 2 - 1.5rem);
-        display: flex;
-        justify-content: space-between;
-       
+           
     } 
+
+    .first > .card_top {
+        text-align: left;
+        padding-bottom: 1rem;
+    }
 
     .card{
         width: calc(100% / 3 - 1.5rem);         
         /* margin: 1rem 0.75rem ; */
     }
+
+    img.phone {
+        width: 50%;
+    }
+   
 
     .card.bot{
         /* width: calc(100% / 2 - 1.5rem); */
@@ -265,9 +284,15 @@ footer{
     }
 
     .card.first{
+        
+        display: flex;
         justify-content: space-between;
        
     } 
+
+    img.phone {
+        width: 100%;
+    }
 
     .cols{
         display: flex;
