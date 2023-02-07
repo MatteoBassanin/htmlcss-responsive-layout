@@ -88,7 +88,7 @@ body{
 }
 
 .btn.bot_button.linkedin {
-    width: 63%;
+    width: 213px;
 }
 
 p.line_text.smaller_font {
@@ -159,8 +159,7 @@ a.btn{
 
 a.blue{
     background-color: var(--primary_color);
-    color: white;
-    
+    color: white;   
 }
 
 .first > .card_top{
@@ -247,6 +246,10 @@ img{
     margin: 2rem 0;
 }
 
+.us_bot{
+    margin-bottom: 50px;
+}
+
 .us_bot > img{
     height: 180px;
     width: 180px;
@@ -261,6 +264,17 @@ img{
 #get_started{
     text-align: center;
     color: white;
+}
+
+h1{
+    color: #FDB855;
+    padding: 2rem;
+}
+
+.giant{
+    background-color: white;
+    margin: 20px 0 ;
+    padding: 20px ;
 }
 
 footer{
@@ -407,6 +421,8 @@ footer{
         width: calc(100% / 3 - 1.5rem);       
     }
 
+   
+
     #get_started .container, footer .container{
         width: 60%;
     }
@@ -466,6 +482,10 @@ footer{
 
 .smaller_font{
     font-size: 14px;
+}
+
+.even_smaller_font{
+    font-size: 12px;
 }
 
 .purple{
