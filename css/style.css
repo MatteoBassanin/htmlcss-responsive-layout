@@ -69,12 +69,30 @@ body{
    text-align: center;
 }
 
-.btn .rounded.purple{
+/* .btn.rounded.purple{
     height: 45px;
     width: 45px;
     margin: auto; 
     background-color: var(--secondary_color);
     border-radius: 50%;
+} */
+
+.btn.bot_button{
+    background: var(--secondary_color);
+    width: 35%;
+}
+
+.btn.bot_button a{
+    text-decoration: none;
+    color: white;  
+}
+
+.btn.bot_button.linkedin {
+    width: 63%;
+}
+
+p.line_text.smaller_font {
+    padding-bottom: 20px;
 }
 
 header{
@@ -168,8 +186,6 @@ img{
     width: 100%;
 }
 
-
-
 .card_top > i{
     color: var(--primary_color);
     font-size: 5rem;
@@ -178,6 +194,10 @@ img{
 
 #planning,#working_with_us,#get_started{
     background-color: var(--secondary_color);  
+}
+
+.text.bot p{
+    margin: 0 1rem;
 }
 
 #testimonials{
@@ -221,6 +241,10 @@ img{
 
 .us_top > h2{
     text-align: center;
+}
+
+.card.bot > h3{
+    margin: 2rem 0;
 }
 
 .us_bot > img{
@@ -424,12 +448,20 @@ footer{
     padding-top: 50px;
 }
 
+.pd_bot{
+    padding-bottom: 50px;
+}
+
 .pdg_small{
     padding: 1rem 0;
 }
 
 .line_text{
     line-height: 1.5rem;
+}
+
+.line_text_bigger{
+    line-height: 2rem;
 }
 
 .smaller_font{
@@ -446,4 +478,8 @@ footer{
 
 .font_weight{
     font-weight: 300;
+}
+
+.big{
+    font-size: 40px;
 }
