@@ -229,9 +229,12 @@ img{
     line-height: 1.5rem;
 }
 
-.pic{
-    background-color: darkmagenta;
-    height: 50px;
+i.fa-solid.fa-quote-left{
+    font-size: 25px;
+}
+
+i.fa-solid.fa-quote-right{
+    font-size: 25px;
 }
 
 .white{
@@ -264,6 +267,17 @@ img{
     width: 180px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+.us_bot{
+    position: relative;
+}
+
+i.fa-solid.fa-quote-left.purple{
+    font-size: 60px;
+    position: absolute;
+    top:0; 
+    left: 38%;
 }
 
 .us_bot > h3{
@@ -358,6 +372,10 @@ footer a{
         display: flex;
     }
 
+    i.fa-solid.fa-quote-left.purple {
+        left: 39%;
+    }
+
     .us_top,.us_bot{
         width: 100%;
     }
@@ -436,7 +454,9 @@ footer a{
         width: calc(100% / 3 - 1.5rem);       
     }
 
-   
+    i.fa-solid.fa-quote-left.purple {
+        left: 31%;
+    }
 
     #get_started .container, footer .container{
         width: 60%;
@@ -451,6 +471,10 @@ footer a{
 
     img.phone {
         top: 20px;
+    }
+
+    i.fa-solid.fa-quote-left.purple {
+        left: 25%;
     }
 }
 
