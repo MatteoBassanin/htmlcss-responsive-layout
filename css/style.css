@@ -104,6 +104,11 @@ p.line_text.smaller_font {
     padding-bottom: 20px;
 }
 
+.btn.giant.purple a{
+    color: var(--secondary_color);
+    text-decoration: none;
+}
+
 header{
     background-color: var(--primary_color);
     height: 80px;
@@ -200,7 +205,7 @@ img{
     text-align: center;
 }
 
-#planning,#working_with_us,#get_started{
+#working_with_us,#get_started{
     background-color: var(--secondary_color);  
 }
 
@@ -311,6 +316,11 @@ footer a{
 }
 
 
+.get_started_text > .even_smaller_font{
+    margin-bottom: 20px;
+    color: #CCCBF1;
+}
+
 @media screen and (min-width: 768px)
 {
     .container{
@@ -341,6 +351,7 @@ footer a{
 
     img.phone {
         width: 50%;
+        right: 100px;
     }
     
     .text > h3{
@@ -407,6 +418,7 @@ footer a{
     img.phone {
         width: 100%;
         top: 74px;
+        right:0;
     }
 
     .cols{
@@ -438,9 +450,7 @@ footer a{
         padding: 0 6rem;
     }
 
-    #planning {
-        min-height: 900px;
-    }
+   
 
     .testimonial{
         display: flex;
@@ -545,4 +555,8 @@ footer a{
 
 .big{
     font-size: 40px;
+}
+
+.medium{
+    font-size: 25px;
 }
