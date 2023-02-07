@@ -4,30 +4,28 @@
     box-sizing: border-box;
 }
 
-/* debug */
-
-.debug_box{
-    background-color: var(--primary_color_light);
-    height: 80px;
-    padding: 1rem;
-}
-
-.card{
-    padding: 1rem 0.75rem ;
-    /* width: 100%;    */
+body{
+    font-family: sans-serif;
 }
 
 .card{
     background-color: var(--primary_color_light);
     margin: 0.75rem;
+    text-align: center;
+    padding: 1rem 0.75rem ;
 }
 
-/* .cards{
+.cards{
     margin: 0 -0.75rem;
-    width: 100%;
-} */
+}
 
-
+.card_top > p ,.card_bot > p{
+    color: var(--text_primary);
+    line-height: 1.5rem;
+    font-size: 14px;
+    text-align: left;
+    margin: 1.5rem;
+}
 .picture_planning{
    width: 100%;
 }
@@ -44,11 +42,6 @@
     text-align: center;
 }
 
-.button{
-    height: 20px;
-    background-color: black;
-}
-
 #planning{
     min-height:300px ;
     padding-bottom: 50px;
@@ -63,48 +56,14 @@
     margin-bottom: 2rem;
 }
 
-.right_pic{
-    background-color: white;
-}
-
-.debug_box.right_pic{
-    background-color: green;
-    height: 200px;
-}
-
 .introduction{
-    /* background-color: bisque;
-    height: 200px; */
-    text-align: center;
-    
-}
-
-
-.small_text{
-    /* background-color: greenyellow;
-    height: 20px; */
+    text-align: center;  
 }
 
 .small_title{
    text-align: center;
    
 }
-
-.paragraph{
-    background-color: hotpink;
-    height: 50px;
-}
-
-
-.little_title{
-    background-color: lime;
-    height: 20px;
-}
-.parag{
-    background-color: paleturquoise;
-    height: 60px;
-}
-
 
 /* css */
 
@@ -129,9 +88,7 @@ main{
 .container{
     max-width: 600px;
     margin: auto;
-    /* max-width: 90%; */
     padding: 0 2rem;
-    /* margin: 0 -0.75rem; */
 }
 
 .container.top{
@@ -157,20 +114,25 @@ main{
 }
 
 .btn{
-    border-radius: 5px;
-    padding: 5px;  
+    border-radius: 25px;
+    padding: 5px 30px;  
 }
 
-
+.card_top > h3 ,.card_bot > h3{
+    color: var(--primary_color);
+    padding: 2rem 0 0;
+}
 
 a.btn{
     color: black;
     background-color: white;
+    text-decoration: none;
 }
 
 a.blue{
     background-color: var(--primary_color);
     color: white;
+    
 }
 
 .first > .card_top{
@@ -187,16 +149,16 @@ a.blue{
 } 
 
 img.phone{
-     width: 100%;    
+     width: 50%;
+     position: relative;
+     top: 20px;    
 } 
 
 img{
     width: 100%;
 }
 
-.card{
-    text-align: center;
-}
+
 
 .card_top > i{
     color: var(--primary_color);
@@ -214,7 +176,6 @@ img{
 
 .testimonial{
     margin-top: 50px;
-    /* height: 200px; */
     background-color: var(--secondary_color);
     text-align: center;
 }
@@ -263,8 +224,15 @@ img{
     max-width: 220px;
 }
 
+#get_started{
+    text-align: center;
+    color: white;
+}
+
 footer{
     background-color: black;
+    text-align: center;
+    color: white;
 }
 @media screen and (min-width: 768px)
 {
@@ -277,9 +245,12 @@ footer{
         flex-wrap: wrap;             
     }
 
+    .card_top > p ,.card_bot > p{
+        margin: 1rem 0;
+    }
+
     .card.first{
-        width: calc((100% / 3) * 2 - 1.5rem);
-           
+        width: calc((100% / 3) * 2 - 1.5rem);         
     } 
 
     .first > .card_top {
@@ -289,7 +260,6 @@ footer{
 
     .card{
         width: calc(100% / 3 - 1.5rem);         
-        /* margin: 1rem 0.75rem ; */
     }
 
     img.phone {
@@ -314,14 +284,8 @@ footer{
     }
 
     .card.bot{
-        /* width: calc(100% / 2 - 1.5rem); */
-         /* margin: 1rem 0.75rem ;  */
          width: calc(100% / 2 - 1.5rem);
     }
-
-    /* .card_bot img{
-        width: 200px;
-    } */
 
     .about_us_container{
         display: flex;
@@ -350,15 +314,14 @@ footer{
         display: flex;
     }
 
-    .card.first{
-        
+    .card.first{       
         display: flex;
-        justify-content: space-between;
-       
+        justify-content: space-between;      
     } 
 
     img.phone {
         width: 100%;
+        top: 74px;
     }
 
     .cols{
@@ -372,13 +335,11 @@ footer{
     }
 
     .left_pic{
-        align-self: center;
-        
+        align-self: center;       
     }
 
     .right_pic{
-        align-self: flex-end;
-        
+        align-self: flex-end;      
     }
 
     .text.top{
@@ -403,12 +364,8 @@ footer{
         width: 100%;
     }
 
-
-
     .card.bot{
         width: calc(100% / 3 - 1.5rem);       
-        /* padding: 0;
-        margin: 1rem 0.75rem ; */
     }
 
     #get_started .container, footer .container{
@@ -422,7 +379,6 @@ footer{
         max-width: 1170px;
     }
 }
-
 
 /* utility */
 
@@ -442,21 +398,11 @@ footer{
     border-radius: 1.5rem;
 }
 
-/* .card_top{
-    border-radius: 1.5rem 1.5rem 0 0;
-    text-align: center;
-    
-} */
-
-/* .card_bot{
-    
-    border-radius: 0 0 1.5rem 1.5rem;
-} */
-
 :root{
     --primary_color : #0079FD;
     --primary_color_light : #ACD8FF;
     --secondary_color: #8C87E0;
+    --text_primary: #404F5C;
 }
 
 .padding_top{
