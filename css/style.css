@@ -105,10 +105,7 @@
     height: 60px;
 }
 
-.us_top{
-    background-color: mediumspringgreen;
-    height: 200px;
-}
+
 /* css */
 
 header{
@@ -246,6 +243,25 @@ img{
     text-align: left;
 }
 
+.us_top > p{
+    padding: 2rem;
+    line-height: 2rem;
+}
+
+.us_top > h2{
+    text-align: center;
+}
+
+.us_bot > img{
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.us_bot > h3{
+    max-width: 220px;
+}
 
 footer{
     background-color: black;
@@ -307,7 +323,7 @@ footer{
         width: 200px;
     } */
 
-    #about_us .container{
+    .about_us_container{
         display: flex;
     }
 
