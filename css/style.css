@@ -149,13 +149,40 @@ main{
 }
 
 .btn{
-    background-color: white;
     border-radius: 5px;
     padding: 5px;
+    
 }
+
+.card{
+    border-radius: 10px;
+}
+
+
 
 a.btn{
     color: black;
+    background-color: white;
+}
+
+a.blue{
+    background-color: var(--primary_color);
+    color: white;
+}
+
+.card_bot{
+    height: 100%;
+}
+
+.card_bot img{
+    padding-top: 90px;
+    /* width: 100%;
+    height: 100%;
+    object-fit: contain; */
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #planning,#working_with_us,#get_started{
@@ -203,13 +230,13 @@ footer{
 
     .card{
         width: calc(100% / 3 - 1.5rem);       
-        padding: 0;
+        
         margin: 1rem 0.75rem ;
     }
 
     .card.bot{
         width: calc(100% / 2 - 1.5rem);
-        padding: 0;
+        
         margin: 1rem 0.75rem ;
     }
 
@@ -237,6 +264,10 @@ footer{
     }
 
     .hidden ul{
+        display: flex;
+    }
+
+    .left_desktop{
         display: flex;
     }
 
