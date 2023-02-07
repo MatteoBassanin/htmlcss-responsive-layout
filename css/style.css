@@ -126,9 +126,40 @@ main{
     padding: 0 2rem;
 }
 
+.container.top{
+    height: 100%;
+}
+
+.box.right i{
+    color: white;
+}
+
+.hidden{
+    display: none;
+}
+
+.hidden li {
+    list-style: none;
+}
+
+.hidden a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.btn{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a.btn{
+    color: black;
+}
+
 #planning,#working_with_us,#get_started{
-    background-color: var(--secondary_color);
-    
+    background-color: var(--secondary_color);  
 }
 
 #testimonials{
@@ -195,6 +226,18 @@ footer{
 {
     .container{
         max-width: 960px;
+    }
+
+    .visible{
+        display: none;
+    }
+
+    .hidden{
+        display: block;
+    }
+
+    .hidden ul{
+        display: flex;
     }
 
     .cols{
