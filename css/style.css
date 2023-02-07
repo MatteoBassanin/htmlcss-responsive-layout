@@ -154,10 +154,6 @@ main{
     
 }
 
-.card{
-    border-radius: 10px;
-}
-
 
 
 a.btn{
@@ -171,7 +167,8 @@ a.blue{
 }
 
 .card_bot{
-    height: 100%;
+    height: 50%;
+    border-radius: 0 0 1.5rem 1.5rem;
 }
 
 .card_bot img{
@@ -226,18 +223,21 @@ footer{
 
     .card.first{
         width: calc((100% / 3) * 2 - 1.5rem);
+        display: flex;
     }
 
     .card{
-        width: calc(100% / 3 - 1.5rem);       
-        
+        width: calc(100% / 3 - 1.5rem);         
         margin: 1rem 0.75rem ;
     }
 
     .card.bot{
         width: calc(100% / 2 - 1.5rem);
-        
         margin: 1rem 0.75rem ;
+    }
+
+    .card_bot img{
+        width: 200px;
     }
 
     #about_us .container{
@@ -325,6 +325,14 @@ footer{
     align-items: center;
 }
 
+.rounded{
+    border-radius: 1.5rem;
+}
+
+.card_top{
+    border-radius: 1.5rem 1.5rem 0 0;
+    text-align: center;
+}
 
 :root{
     --primary_color : #0079FD;
