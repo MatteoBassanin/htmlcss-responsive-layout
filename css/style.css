@@ -69,13 +69,22 @@ body{
    text-align: center;
 }
 
-/* .btn.rounded.purple{
+.button.purple{
     height: 45px;
     width: 45px;
     margin: auto; 
     background-color: var(--secondary_color);
     border-radius: 50%;
-} */
+    position: relative;
+}
+
+.button.purple a{
+    color: black;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+}
 
 .btn.bot_button{
     background: var(--secondary_color);
@@ -438,6 +447,10 @@ footer a{
 {
     .container{
         max-width: 1170px;
+    }
+
+    img.phone {
+        top: 20px;
     }
 }
 
