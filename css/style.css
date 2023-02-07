@@ -31,14 +31,20 @@
     margin: 0 -0.75rem;
 }
 
-.img{
-    height: 50px;
-    background-color: red;
+.picture_planning{
+   width: 100%;
 }
 
 .text{
-    height: 50px;
-    background-color: yellow;
+    padding: 2rem 0;
+}
+
+.text > h3,.text > h4{
+    padding-bottom: 2rem;
+}
+
+.text.bot{
+    text-align: center;
 }
 
 .button{
@@ -48,16 +54,20 @@
 
 #planning{
     min-height:300px ;
+    padding-bottom: 50px;
+    background-color: #8A88E2;
 }
 
 #planning.container{
     width: 90%;
 }
 
-.debug_box.left_pic{
-    background-color: aqua;
-    height: 200px;
+.left_pic{
     margin-bottom: 2rem;
+}
+
+.right_pic{
+    background-color: white;
 }
 
 .debug_box.right_pic{
@@ -188,6 +198,10 @@ img.phone{
      width: 100%;    
 } 
 
+img{
+    width: 100%;
+}
+
 .card{
     text-align: center;
 }
@@ -306,6 +320,7 @@ footer{
 
     .cols{
         display: flex;
+        height: 45rem;
     }
 
     .col{
@@ -313,8 +328,28 @@ footer{
         margin: 10px;
     }
 
+    .left_pic{
+        align-self: center;
+        
+    }
+
+    .right_pic{
+        align-self: flex-end;
+        
+    }
+
+    .text.top{
+        margin-top: 3rem;
+        position: relative;
+        top: 6rem;
+    }
+
     #planning .container{
         padding: 0 6rem;
+    }
+
+    #planning {
+        min-height: 900px;
     }
 
     .testimonial{
