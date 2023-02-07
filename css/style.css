@@ -188,6 +188,16 @@ img.phone{
      width: 100%;    
 } 
 
+.card{
+    text-align: center;
+}
+
+.card_top > i{
+    color: var(--primary_color);
+    font-size: 5rem;
+    text-align: center;
+}
+
 #planning,#working_with_us,#get_started{
     background-color: var(--secondary_color);  
 }
