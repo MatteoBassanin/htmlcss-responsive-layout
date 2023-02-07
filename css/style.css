@@ -26,6 +26,7 @@ body{
     text-align: left;
     margin: 1.5rem;
 }
+
 .picture_planning{
    width: 100%;
 }
@@ -36,6 +37,10 @@ body{
 
 .text > h3,.text > h4{
     padding-bottom: 2rem;
+}
+
+.top > h3,.top > p{
+    color: white;
 }
 
 .text.bot{
@@ -62,10 +67,15 @@ body{
 
 .small_title{
    text-align: center;
-   
 }
 
-/* css */
+.btn .rounded.purple{
+    height: 45px;
+    width: 45px;
+    margin: auto; 
+    background-color: var(--secondary_color);
+    border-radius: 50%;
+}
 
 header{
     background-color: var(--primary_color);
@@ -266,6 +276,10 @@ footer{
         width: 50%;
     }
     
+    .text > h3{
+        font-size: 30px;
+    }
+
     .testimonial{
         display: flex;
     }
@@ -348,6 +362,7 @@ footer{
         top: 6rem;
     }
 
+
     #planning .container{
         padding: 0 6rem;
     }
@@ -411,4 +426,24 @@ footer{
 
 .pdg_small{
     padding: 1rem 0;
+}
+
+.line_text{
+    line-height: 1.5rem;
+}
+
+.smaller_font{
+    font-size: 14px;
+}
+
+.purple{
+    color:var(--secondary_color)
+}
+
+.white_text{
+    color: white;
+}
+
+.font_weight{
+    font-weight: 300;
 }
